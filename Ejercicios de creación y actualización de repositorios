@@ -1,1 +1,35 @@
-jfhfh
+$ history
+    1  git config --global user.name "[Álvaro Calvo]
+    2  dir
+    3  git branch -d master
+    4  git init
+    5  git commit -m "first commit"
+    6  git branch -M main
+    7  git remote add origin https://github.com/soble3/libro.git
+    8  git push -u origin main
+    9  git add .
+   10  git status
+   11  git push
+   12  git push -u origin main
+   13  touch indice.txt
+   14  ls
+   15  git add .
+   16  git status
+   17  git commit -m "First Commit"
+   18  git push -u origin main
+   19  git status
+   20  nano indice.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  git diff
+   25  git status
+   26  git commit -m "Añadido índice del libro"
+   27  git push
+   28  nano indice.txt
+   29  git status
+   30  git add .
+   31  git commit -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+   32  git status
+   33  git push
+   34  history

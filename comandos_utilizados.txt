@@ -1,0 +1,600 @@
+Comandos utilizados en el último ejercicio:
+
+
+soble@Thinkpardo MINGW64 ~/libro-git (master)
+$ history
+    1  git config --global user.name "[Álvaro Calvo]
+    2  dir
+    3  git branch -d master
+    4  git init
+    5  git commit -m "first commit"
+    6  git branch -M main
+    7  git remote add origin https://github.com/soble3/libro.git
+    8  git push -u origin main
+    9  git add .
+   10  git status
+   11  git push
+   12  git push -u origin main
+   13  touch indice.txt
+   14  ls
+   15  git add .
+   16  git status
+   17  git commit -m "First Commit"
+   18  git push -u origin main
+   19  git status
+   20  nano indice.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  git diff
+   25  git status
+   26  git commit -m "Añadido índice del libro"
+   27  git push
+   28  nano indice.txt
+   29  git status
+   30  git add .
+   31  git commit -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+   32  git status
+   33  git push
+   34  history
+   35  git push
+   36  git pull
+   37  git push
+   38  git status
+   39  git pull
+   40  git push
+   41  git status
+   42  git pull
+   43  git push
+   44  git pull
+   45  git pull
+   46  git push
+   47  git log --oneline
+   48  mkdir capitulos
+   49  cd capitulos
+   50  type
+   51  git type
+   52  echo "Git es un sistema de control de versiones ideado por Linus Torvalds." > capitulo1.txt
+   53  echo git es un sistema de control de versiones ideado por Linus Torvalds. > capitulo1.txt
+   54  git add capitulo1.txt
+   55  git commit -m "Añadido archivo "capitulo1.txt""
+   56  push
+   57  git log --oneline
+   58  git push
+   59  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
+   60  git add capitulos\capitulo2.txt
+   61  cd capitulos
+   62  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
+   63  git add capitulos\capitulo2.txt
+   64  git add capitulo2.txt
+   65  push
+   66  git push
+   67  git log
+   68  git log --oneline
+   69  cd capitulos
+   70  git pull
+   71  cd capitulos
+   72  cd libro
+   73  cd capitulos
+   74  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. > capitulos\capitulo2.txt
+   75  git add capitulos\capitulo2.txt
+   76  git commit -m "añadido capítulo 2."
+   77  git log
+   78  git log --oneliner
+   79  git log --oneline
+   80  git log --oneline
+   81  echo "Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas." > capitulos/capitulo3.txt
+   82  git commit -m "Añadido capítulo 3."
+   83  git add
+   84  git add .
+   85  git push
+   86  git status
+   87  echo "Capítulo 5: Conceptos avanzados" >> indice.txt
+   88  git add indice.txt
+   89  git commit -m "añadido capítulo 5 al índice."
+   90  git blame indice.txt
+   91  git push
+   92  git status
+   93  mv capitulos/capituloscapitulo2 capitulos/capitulo2.txt
+   94  git add capitulos/capitulo2.txt
+   95  git push
+   96  git commit -m "Renombrado capitulo2"
+   97  git status
+   98  git pull
+   99  git push
+  100  cd capitulos
+  101  mv capituloscapitulo2 capitulo2.txt
+  102  mv capituloscapitulo2txt capitulo2.txt
+  103  cd ..
+  104  git add capitulos/capitulo2.txt
+  105  git commit -m "Renombrad capitulo2"
+  106  cd capitulos
+  107  ls capitulos
+soble@Thinkpardo MINGW64 ~/libro-git (master)
+$ history
+    1  git config --global user.name "[Álvaro Calvo]
+    2  dir
+    3  git branch -d master
+    4  git init
+    5  git commit -m "first commit"
+    6  git branch -M main
+    7  git remote add origin https://github.com/soble3/libro.git
+    8  git push -u origin main
+    9  git add .
+   10  git status
+   11  git push
+   12  git push -u origin main
+   13  touch indice.txt
+   14  ls
+   15  git add .
+   16  git status
+   17  git commit -m "First Commit"
+   18  git push -u origin main
+   19  git status
+   20  nano indice.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  git diff
+   25  git status
+   26  git commit -m "Añadido índice del libro"
+   27  git push
+   28  nano indice.txt
+   29  git status
+   30  git add .
+   31  git commit -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+   32  git status
+   33  git push
+   34  history
+   35  git push
+   36  git pull
+   37  git push
+   38  git status
+   39  git pull
+   40  git push
+   41  git status
+   42  git pull
+   43  git push
+   44  git pull
+   45  git pull
+   46  git push
+   47  git log --oneline
+   48  mkdir capitulos
+   49  cd capitulos
+   50  type
+   51  git type
+   52  echo "Git es un sistema de control de versiones ideado por Linus Torvalds." > capitulo1.txt
+   53  echo git es un sistema de control de versiones ideado por Linus Torvalds. > capitulo1.txt
+   54  git add capitulo1.txt
+   55  git commit -m "Añadido archivo "capitulo1.txt""
+   56  push
+   57  git log --oneline
+   58  git push
+   59  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
+   60  git add capitulos\capitulo2.txt
+   61  cd capitulos
+   62  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
+   63  git add capitulos\capitulo2.txt
+   64  git add capitulo2.txt
+   65  push
+   66  git push
+   67  git log
+   68  git log --oneline
+   69  cd capitulos
+   70  git pull
+   71  cd capitulos
+   72  cd libro
+   73  cd capitulos
+   74  echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. > capitulos\capitulo2.txt
+   75  git add capitulos\capitulo2.txt
+   76  git commit -m "añadido capítulo 2."
+   77  git log
+   78  git log --oneliner
+   79  git log --oneline
+   80  git log --oneline
+   81  echo "Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas." > capitulos/capitulo3.txt
+   82  git commit -m "Añadido capítulo 3."
+   83  git add
+   84  git add .
+   85  git push
+   86  git status
+   87  echo "Capítulo 5: Conceptos avanzados" >> indice.txt
+   88  git add indice.txt
+   89  git commit -m "añadido capítulo 5 al índice."
+   90  git blame indice.txt
+   91  git push
+   92  git status
+   93  mv capitulos/capituloscapitulo2 capitulos/capitulo2.txt
+   94  git add capitulos/capitulo2.txt
+   95  git push
+   96  git commit -m "Renombrado capitulo2"
+   97  git status
+   98  git pull
+   99  git push
+  100  cd capitulos
+  101  mv capituloscapitulo2 capitulo2.txt
+  102  mv capituloscapitulo2txt capitulo2.txt
+  103  cd ..
+  104  git add capitulos/capitulo2.txt
+  105  git commit -m "Renombrad capitulo2"
+  106  cd capitulos
+  107  ls capitulos
+  108  ls capitulos
+  109  git mv capitulos/capituloscapitulo2 capitulos/capitulo2.txt
+  110  git mv capituloscapitulo2 capitulos/capitulo2.txt
+  111  git add capitulo2.txt
+  112  git status
+  113  exit
+  114  echo "El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios." > capitulos/capitulo2.txt
+  115  git add capitulos/capitulo2.txt
+  116  git diff HEAD~2 HEAD
+  117  echo "El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios." > capitulos/capitulo2.txt
+  118  git add capitulos/capitulo2.txt
+  119  git commit -m "Añadido capitulo2."
+  120  git push
+  121  git status
+  122  rm capitulos/capituloscapitulo2
+  123  rm capitulos/capituloscapitulo2.txt
+  124  ls capitulos
+  125  git commit -m "borrado fichero capituloscapitulo2 para dejar bien ordenados los indices. jaja salu2"
+  126  git push
+  127  git add
+  128  git add .
+  129  git status
+  130  git push
+  131  git status
+  132  git log --oneline
+  133  git blame indice.txt
+  134  git diff $(git rev-list --max-parents=0 HEAD) HEAD
+  135  git rm capitulos/capituloscapitulo2
+  136  git push origin <main>
+  137  git push origin <libro>
+  138  git branch
+  139  cd capitulos
+  140  git branch
+  141  git push origin <main>
+  142  git status
+  143  git ad
+  144  git add
+  145  git add .
+  146  git rm capitulos/capituloscapitulo2
+  147  cd libro bueno
+  148  cd capitulos
+  149  cd main
+  150  cd capitulos
+  151  git status
+  152  git push
+  153  git status
+  154  git exit
+  155  git rm capitulos/capituloscapitulo2
+  156  git status
+  157  git rm --cached capitulos/capituloscapitulo2
+  158  git history
+  159  history
+  160  git clone
+  161  git checkout master
+  162  git checkout libro bueno
+  163  git branch bibliografia
+  164  git checkout bibliografia
+  165  git branch
+  166  git branch -a
+  167  git checkout bibliografia
+  168  echo "2. Añadir los cambios a la zona de intercambio temporal." >> capitulos/capitulo4.txt
+  169  commit Añadido capítulo4."
+  170  git commit -m "Añadido capítulo 4."
+  171  git log --all --graph --oneline --decorate
+  172  git status
+  173  git push
+  174  git log --all --graph --oneline --decorate
+  175  git push
+  176  git status
+  177  status
+  178  git reset
+  179  git statu
+  180  git status
+  181  git push
+  182  git status
+  183  git add capitulo4.txt
+  184  git checkout bibliografia
+  185  echo "● Chacon, S. and Straub, B. Pro Git. Apress." > bibliografia.txt
+  186  git add bibliografia.txt
+  187  git commit -m "Añadida primera referencia bibliográfica."
+  188  git log --all --graph --oneline --decorate
+  189  git checkout master
+  190  git checkout main
+  191  git merge bibliografia
+  192  git log --all --graph --oneline --decorate
+  193  git branch -d bibliografia
+  194  git log --all --graph --oneline --decorate
+  195  git push
+  196  git status
+  197  git pull
+  198  git branch bibliografia
+  199  git checkout bibliografia
+  200  nano bibliografia.txt
+  201  git add bibliografia.txt
+  202  git commit -m "Añadida nueva referencia bibliográfica."
+  203  git checkout main
+  204  nano bibliografia.txt
+  205  git add bibliografia
+  206  git add bibliografia.txt
+  207  git commit -m "Añadida nueva referencia bibiográfica."
+  208  git status
+  209  git push
+  210  git pull
+  211  git checkout main
+  212  git merge bibliografia
+  213  nano bibliografia.txt
+  214  git add bibliografia.txt
+  215  git commit -m "Resuelto conflicto de bibliografía."
+  216  git log --all --graph --oneline --decorate
+  217  git status
+  218  git --oneline
+  219  git push
+  220  git pull
+  221  history
+  222  git log oneliner
+  223  git log --oneline
+  224  exit
+  225  git history
+  226  gistory
+  227  history
+  228  git remote add origin https://github.com/soble3/libro-git.git
+  229  git remote add origin https://github.com/soble3/libro-git.git
+  230  git branch -M main
+  231  git push -u origin main
+  232  cd Documents/ASIR/Lenguaje de marcas/libro bueno
+  233  git init
+  234  git remote add origin https://github.com/soble3/libro-git.git
+  235  git add .
+  236  git commit -m "Primer commit con los archivos del libro"
+  237  git push -u origin master
+  238  git push -u origin main
+  239  git push -u origin master
+  240  git remote -v
+  241  git status
+  242  git init
+  243  git remote add origin https://github.com/soble3/libro-git.git
+  244  git remote -v
+  245  git push
+  246  git pull
+  247  git status
+  248  git add .
+  249  git add.
+  250  git add ..
+  251  git add .
+  252  git status
+  253  git add .
+  254  git commit -m "Añadido repositorio local al repositorio remoto"
+  255  git push origin main
+  256  git clone
+  257  git clone https://github.com/asalber/libro-git.git
+  258  cd libro-git
+  259  git reset --hard cb1e4
+  260  git remote remove origin
+  261  git status
+  262  git push
+  263  git pull
+  264  cd /Documents/ASIR/Lenguaje de marcas/libro bueno/libro-g
+  265  cd /Lenguaje de marcas/libro bueno
+  266  cd libro bueno
+  267  cd "/Documents/ASIR/Lenguaje de marcas/libro bueno/libro-g
+  268  cd "/Documents/ASIR/Lenguaje de marcas/libro bueno
+  269  cd "Documents/ASIR/Lenguaje de marcas/libro bueno"
+  270  git init
+  271  git remote add origin https://github.com/soble3/libro-git.git
+  272  git remote -v
+  273  git remote -v
+  274  git push
+  275  git push --set-upstream origin master
+  276  git push
+  277  git checkout master
+  278  git add .
+  279  git commit -m "añadidos cambios al repositorio local"
+  280  git push
+  281  git push --set-upstream origin master
+  282  git clone https://github.com/victus100/libro_git.git
+  283  cd libro_git
+  284  echo "soble3 - soble@hotmail.com" > autores.txt
+  285  git add autores.txt
+  286  git commit -m "Añadido autor"
+  287  git push origin master
+  288  git branch
+  289  git push origin main
+  290  git branch
+  291  git checkout -b main
+  292  echo "soble3 - soble@hotmail.com" > autores.txt
+  293  git add autores.txt
+  294  git commit -m "Añadido autor"
+  295  git push origin master
+  296  git push
+  297  git history
+  298  history
+  299  git reflog
+  300  nano indice.txt
+  301  git status
+  302  git checkout -- indice.txt
+  303  git status
+  304  nano indice.txt
+  305  git add indice.txt
+  306  git status
+  307  nano indice.txt
+  308  notepad indice.tct
+  309  notepad indice.txt
+  310  git status
+  311  git reset HEAD indice.txt
+  312  git status
+  313  git checkout -- indice.txt
+  314  git status
+  315  nano indice.txt
+  316  nano indice.txt
+  317  rm capitulos/capitulo3.txt
+  318  touch capitulos/capitulo4.txt
+  319  git add indice.txt capitulos/capitulo4.txt
+  320  git status
+  321  git reset HEAD indice.txt capitulos/capitulo4.txt
+  322  git status
+  323  git checkout -- indice.txt capitulos/capitulo4.txt
+  324  git status
+  325  nano indice.txt
+  326  rm capitulos/capitulo3.txt
+  327  git add indice.txt capitulos/capitulo3.txt
+  328  git commit -m "Borrado accidental."
+  329  git log
+  330  git log --oneline
+  331  git reset HEAD^
+  332  git log --oneline
+  333  git status
+  334  git commit -c ORIG_HEAD
+  335  git reset --hard HEAD^
+  336  git log
+  337  git log --oneline
+  338  git status
+  339  git push
+  340  git pull
+  341  git push
+  342  history
+  343  history
+  344  git config --global user.name "soble3"
+  345  git config --global user.email "soble@hotmail.com"
+  346  git clone https://github.com/soble3/libro.git
+  347  cd libro
+  348  exit
+  349  git clone https://github.com/asalber/libro-git.git
+  350  cd libro-git
+  351  git reset --hard 48ed8
+  352  git remote remove origin
+  353  sed -i '$ d' indice.txt
+  354  git status
+  355  git checkout -- indice.txt
+  356  git status
+  357  sed -i '$ d' indice.txt
+  358  git add indice.txt
+  359  git status
+  360  git reset indice.txt
+  361  git status
+  362  git checkout -- indice.txt
+  363  git status
+  364  sed -i '$ d' indice.txt
+  365  rm capitulos/capitulo3.txt
+  366  touch capitulos/capitulo4.txt
+  367  git add indice.txt capitulos/capitulo3.txt capitulos/capitulo4.txt
+  368  git status
+  369  git reset
+  370  git status
+  371  git checkout -- indice.txt capitulos/capitulo3.txt capitulos/capitulo4.txt
+  372  git status
+  373  sed -i '$ d' indice.txt
+  374  rm capitulos/capitulo3.txt
+  375  ls capitulos/capitulo3.txt
+  376  rm -f capitulos/capitulo3.txt
+  377  git add indice.txt capitulos/capitulo3.txt
+  378  git commit -m "Borrado accidental."
+  379  git log
+  380  git status
+  381  git reset HEAD^
+  382  git log
+  383  git status
+  384  git commit -c ORIG_HEAD
+  385  git reset --hard HEAD^
+  386  git log
+  387  git status
+  388  git add .
+  389  git commit -m "Subiendo la movida a mi libro"
+  390  git push origin master
+  391  git remote -v
+  392  git remote add origin
+  393  git remote add origin https://github.com/soble3/libro.git
+  394  git config --global user.name "soble3"
+  395  git config --global user.email "soble@hotmail.com"
+  396  git branch
+  397  git push origin master
+  398  git remote show origin
+  399  git remote set-url origin https://github.com/soble3/libro.git
+  400  git push -u origin master
+  401  git remote remove origin
+  402  git remote add origin https://github.com/soble3/libro.git
+  403  git push -u origin master
+  404  git pull
+  405  git push
+  406  git status
+  407  git pull
+  408  git push
+  409  sed -i '$ d' indice.txt
+  410  git status
+  411  git add indice.txt
+  412  git commit -m "eliminar última línea de indice.txt"
+  413  git push origin master
+  414  nano indice.txt
+  415  git status
+  416  git add indice.txt
+  417  git add indice.txt
+  418  git commit -m "eliminar última línea de indice.txt"
+  419  git push origin master
+  420  nano indice.txt
+  421  git add indice.txt
+  422  git commit -m "eliminar última línea de indice.txt"
+  423  git status
+  424  git reset HEAD^
+  425  git checkout -- indice.txt
+  426  git push origin master
+  427  nano indice.txt
+  428  rm capitulos/capitulo3.txt
+  429  touch capitulos/capitulo4.txt
+  430  git add indice.txt capitulos/capitulo3.txt capitulos/capitulo4.txt
+  431  git commit -m "Eliminar linea de indice.txt, eliminar capitulo3.txt, agregar caitulo4.txt"
+  432  git reset HEAD^
+  433  git checkout -- indice.txt capitulos/capitulo3.txt capitulos/capitulo4.txt
+  434  git push origin master
+  435  nano indice.txt
+  436  rm capitulos/capitulo3.txt
+  437  git add indice.txt capitulos/capitulo3.txt
+  438  git commit -m "Borrado accidental."
+  439  git push origin master
+  440  git reset HEAD^
+  441  git log
+  442  git log
+  443  git status
+  444  git commit -c ORIG_HEAD
+  445  git reset --hard HEAD^
+  446  git push origin master
+  447  git push
+  448  git checkout master
+  449  git pull origin master
+  450  git push
+  451  git checkout master
+  452  git branch -m main
+  453  git add .
+  454  git commit -m "Cambiar nombre de la rama a main"
+  455  git push -u origin main
+  456  git checkout main
+  457  git pul origin main
+  458  git pull origin main
+  459  git push
+  460  git push origin HEAD:master
+  461  git commit -m "Añadido cambios en la branch master y dejando mensaje en la main"
+  462  git push origin main
+  463  git checkout main
+  464  git pull origin main
+  465  git push origin main
+  466  git pull
+  467  git push
+  468  git push origin HEAD: master
+  469  git push origin HEAD:main
+  470  git pull origin main
+  471  git push origin HEAD:main
+  472  git pull origin main --allow-unrelated-histories
+  473  git push origin main
+  474  git branch
+  475  git branch -r
+  476  git pull branch -r
+  477  git checkout main
+  478  git pull origin main
+  479  git checkout main
+
+   ________________
+  |   |,"    `.|   | SgH
+  |   /  SONY  \   |
+  |O _\   />   /_  |   ___ _
+  |_(_)'.____.'(_)_|  (")__(")
+  [___|[=]__[=]|___]  //    \\
